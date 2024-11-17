@@ -6,54 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Latihan Bootstrap</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>CV | Diana</title>
 </head>
 
-<body>
+<body id="home">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BlogKu</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color:rgb(255, 121, 188)">
+        <div class="container ">
+            <a class="navbar-brand " href="# ">Nnanadishy</a>
+            <button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+            <div class="collapse navbar-collapse " id="navbarNav ">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.html">Profile</a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#about ">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#project">Experience</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#contact">Contact</a>
+                    </li>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Navbar ENd -->
+    <!-- Navbar End -->
 
-    <!-- Carrousel Start -->
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/1.jpg" class="d-block w-100" alt="foto mark lee 1">
+    <!-- Jumbotron Start -->
+    <section class="jumbotron text-center">
+        <img src="images/1.jpg" alt="Diana Nh" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Diana Nur Hamidah</h1>
+        <p class="lead">Mahasiswi Sistem Informasi</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,288L20,256C40,224,80,160,120,138.7C160,117,200,139,240,154.7C280,171,320,181,360,186.7C400,192,440,192,480,165.3C520,139,560,85,600,90.7C640,96,680,160,720,186.7C760,213,800,203,840,213.3C880,224,920,256,960,261.3C1000,267,1040,245,1080,213.3C1120,181,1160,139,1200,122.7C1240,107,1280,117,1320,117.3C1360,117,1400,107,1420,101.3L1440,96L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+    </section>
+    <!-- Jumbotron End -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="images/2.jpg" class="d-block w-100" alt="foto mark lee 2">
-            </div>
-            <div class="carousel-item">
-                <img src="images/3.jpg" class="d-block w-100" alt="foto mark lee 3">
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-5">
+                    <p>Mahasiswi S1 Sistem Informasi dengan minat besar di bidang teknologi dan bisnis. Saat ini saya sedang menempuh semester 3 di Institut Digital Ekonomi LPKIA. </p>
+                </div>
+                <div class="col-md-5">
+                    <p>Memiliki kemampuan kerja sama yang baik dalam tim, saya juga bertanggung jawab dan bersemangat untuk terus berkembang dalam industri teknologi, dengan tujuan memberikan kontribusi nyata melalui inovasi dan kreativitas.</p>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!-- Carrousel End -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 205, 231)" fill-opacity="1" d="M0,192L20,181.3C40,171,80,149,120,117.3C160,85,200,43,240,58.7C280,75,320,149,360,165.3C400,181,440,139,480,122.7C520,107,560,117,600,149.3C640,181,680,235,720,261.3C760,288,800,288,840,272C880,256,920,224,960,202.7C1000,181,1040,171,1080,149.3C1120,128,1160,96,1200,101.3C1240,107,1280,149,1320,149.3C1360,149,1400,107,1420,85.3L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+    </section>
+    <!-- About End -->
 
-</body>
+    <!-- Projects Start -->
+    <section id="project">
+        <div class="container mb-4">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Experience</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <img src="project/1.jpg" class="card-img-top" alt="PT banshu Rubber Indonesia">
+                        <div class="card-body">
+                            <p class="card-text">Finishing Product - PT Banshu Rubber Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project/2.jpg" class="card-img-top" alt="HMSI">
+                        <div class="card-body">
+                            <p class="card-text">Sekretaris - Himpunan Mahasiswa Sistem Informasi, Institut Digital Ekonomi LPKIA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project/3.jpg" class="card-img-top" alt="KREAKAM">
+                        <div class="card-body">
+                            <p class="card-text">KREAKAM ( Kreatif Anak Kampus ) - Unit Kegiatan Mahasiswa ( UKM ), Institut Digital Ekonomi LPKIA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,288L17.1,245.3C34.3,203,69,117,103,85.3C137.1,53,171,75,206,106.7C240,139,274,181,309,208C342.9,235,377,245,411,218.7C445.7,192,480,128,514,128C548.6,128,583,192,617,181.3C651.4,171,686,85,720,69.3C754.3,53,789,107,823,122.7C857.1,139,891,117,926,133.3C960,149,994,203,1029,213.3C1062.9,224,1097,192,1131,165.3C1165.7,139,1200,117,1234,101.3C1268.6,85,1303,75,1337,69.3C1371.4,64,1406,64,1423,64L1440,64L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg>
+    </section>
+    <!-- Projects End -->
 
-</html>
+    <!-- Contact Start -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" placeholder="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 121, 188)" fill-opacity="1" d="M0,192L17.1,192C34.3,192,69,192,103,165.3C137.1,139,171,85,206,58.7C240,32,274,32,309,74.7C342.9,117,377,203,411,208C445.7,213,480,139,514,122.7C548.6,107,583,149,617,176C651.4,203,686,213,720,229.3C754.3,245,789,267,823,266.7C857.1,267,891,245,926,240C960,235,994,245,1029,229.3C1062.9,213,1097,171,1131,170.7C1165.7,171,1200,213,1234,202.7C1268.6,192,1303,128,1337,90.7C1371.4,53,1406,43,1423,37.3L1440,32L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="text-white text-center pb-5" style="background-color:rgb(255, 121, 188)">
+        <p>Created With <i class="bi bi-arrow-through-heart-fill"></i> by <a href="https://www.instagram.com/nnanadishy/profilecard/?igsh=MWpiM2lnZGVrOG8zbA==" class="text-white fw-bold">Diana Nh</a></p>
+    </footer>
+    <!-- Footer End -->
